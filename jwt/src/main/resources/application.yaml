@@ -1,0 +1,13 @@
+spring:
+  config:
+    import:
+    - classpath:application-admin.yaml
+    - classpath:application-log.yaml
+    - classpath:application-oauth.yaml
+    - classpath:application-persistence.yaml
+    - classpath:application-token.yaml
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+    group:
+      "dev" : ${spring.application.name}, local
+

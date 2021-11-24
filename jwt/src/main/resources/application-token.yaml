@@ -1,0 +1,6 @@
+spring:
+  config.activate.on-profile: local
+signature:
+  token:
+    expiration: ${TOKEN_EXPIRATION:86400000}
+    secret: "test"

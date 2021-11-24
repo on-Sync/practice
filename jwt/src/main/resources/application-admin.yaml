@@ -1,0 +1,6 @@
+spring:
+  config.activate.on-profile: local
+admin:
+  role: ROLE_ADMIN
+  username: admin@test.com
+  password: Aa252513!@
